@@ -1,0 +1,37 @@
+{
+  "name": "dom-to-css-layout",
+  "version": "1.0.0",
+  "description": "Converts a tree of DOM elements into a JSON blob compatible with Facebook's css-layout",
+  "main": "index.js",
+  "dependencies": {
+    "map-dom": "^1.0.0",
+    "style-to-json": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "insert-css": "^0.2.0",
+    "tape": "^4.5.1",
+    "tape-run": "^2.1.3"
+  },
+  "scripts": {
+    "test": "browserify test.js | tape-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/dom-to-css-layout.git"
+  },
+  "keywords": [
+    "css",
+    "layout",
+    "dom",
+    "tree",
+    "style",
+    "generate"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/dom-to-css-layout/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/dom-to-css-layout"
+}
